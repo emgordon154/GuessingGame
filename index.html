@@ -4,14 +4,14 @@
     <title>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
-    <!--link rel="stylesheet" type="text/css" href="style.css"-->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel='stylesheet' type='text/css' href='bootstrap.css'>
 
   </head>
-  <body class='container'>
+  <body>
 
-      <div id='app'>
+      <div id='app' class='container'>
 
         <div id='headers' class='center'>
           <!-- Title and subtitles! -->
@@ -20,10 +20,10 @@
         </div>
 
         <div id='main' class='center'>
-          <div id='input-parent'>
+          <div class='form-group' id='input-parent'>
             <label for="number">Guess a number</label>
-            <input id="number" type="number" min=1 max=100 step=1 placeholder='#'>
-            <input type="button">
+            <input class='form-control' id="number" type="number" min=1 max=100 step=1 placeholder='#'>
+            <input class='btn btn-default' type="button">
           </div>
 
           <div id='guesses'>
@@ -36,27 +36,27 @@
             </ul>
           </div>
 
-          <div id="menu-btns">
-            <button class='menu-button'>reset</button>
-            <button class='menu-button'>hint</button>
+          <div class='btn-group' id="menu-btns">
+            <button class='btn btn-default'>reset</button>
+            <button class='btn btn-default'>hint</button>
           </div>
         </div>
       </div>
 
 
 
-    <div id='footer' class='center'>
-        <div>
-          <div class=''>
-            <img src='fa-logo@2x.png'></img>
+    <div id='footer' class='container'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='fa-logo@2x.png'></img>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <h4>Project by YOUR NAME HERE</h4>
           </div>
 
-          <div class=''>
-            <img src='grace_hopper_academy.png'></img>
+          <div class='col-sm-4'>
+            <img class='image-responsive' src='grace_hopper_academy.png'></img>
           </div>
 
 
