@@ -27,6 +27,7 @@ img {
 }
 #guess {
     display: inline;
+    font-size: 40;
     width: 150px;
     height: 150px;
 }
