@@ -1,6 +1,6 @@
-html {
+/*html {
   box-sizing: border-box
-}
+}*/
 
 .center {
   text-align: center;
@@ -21,6 +21,12 @@ img {
     height: 150px;
 }
 #menu-button {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
+#guess {
+    display: inline;
     width: 150px;
     height: 150px;
 }
