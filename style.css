@@ -18,6 +18,16 @@ img {
     width: 160px;
     margin: 0 auto 0 auto;
 }
+#player-input {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+}
+#submit {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
 #headers {
     height: 150px;
 }
