@@ -14,6 +14,16 @@ img {
     width: 200px;
     height: 100px;
 }
+#input-parent {
+    height: 100px;
+}
+#headers {
+    height: 150px;
+}
+#menu-button {
+    width: 150px;
+    height: 150px;
+}
 #footer {
     width: 100%;
     border-top: solid 2px black;
