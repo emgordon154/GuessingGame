@@ -22,16 +22,16 @@ img {
     margin: 0 auto 0 auto;
 }
 #player-input {
-    position: fixed;
+    position: relative;
     width: 160px;
     height: 160px;
     font-size: 300%;
     border-radius: 100%;
 }
 #submit {
-    position: fixed;
-    top: 20%;
-    left: 45%;
+    position: absolute;
+    top: 32%;
+    left: 52%;
     width: 70px;
     height: 70px;
     border-radius: 100%;
