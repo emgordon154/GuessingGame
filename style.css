@@ -45,9 +45,9 @@ img {
     display: inline;
     border: 2px solid black;
     border-radius: 25px;
-    font-size: 600%;
-    margin: 100px 10px 100px 10px;
-    padding: 10px 45px 10px 45px;
+    font-size: 500%;
+    margin: 100px 5px 100px 5px;
+    padding: 10px 40px 10px 40px;
 }
 #footer {
     width: 100%;
